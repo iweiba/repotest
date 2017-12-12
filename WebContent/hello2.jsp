@@ -7,6 +7,13 @@
 <title>This is a page title</title>
 </head>
 <body>
-Hello world! I'm coming!
+<!-- Below is javascript -->
+<%for(int i=0;i<7;i++)
+	{
+	out.println("<font size='"+i+"'>");
+%>
+This is a test sentence. Font size changes every time.</font>
+<br/>
+<%} %>
 </body>
 </html>
